@@ -23,6 +23,15 @@ const MovieDetail = () => {
                 <h2>{movie.title}</h2>
                 <img src={movie.mainImg} alt="movie" />
             </Headline>
+            <Awards>
+                {movie.awards.map((award) => (
+                    <Award 
+                        title={award.title} 
+                        description={award.description} 
+                        key={award.title} 
+                    />
+                ))}
+            </Awards>
         </Details>
         )}
      </>
@@ -49,5 +58,21 @@ const Headline = styled.div`
         object-fit: cover;
     }
 `;
+
+const Awards = styled.div`
+
+`;
+
+
+//Award Component
+const Award = ({title, description}) => {
+    return (
+        <div>
+            <h3>{title}</h3>
+            <div className="line"></div>
+            <p>{description}</p>
+        </div>
+    )
+}
 
 export default MovieDetail;
