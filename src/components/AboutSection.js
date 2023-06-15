@@ -6,9 +6,7 @@ import home1 from '../img/home1.png';
 //Framer Motion
 import { motion } from "framer-motion";
 
-const AboutSection = () => {
-    
-
+const AboutSection = () => {    
     return (
         <About>
             <Description>
