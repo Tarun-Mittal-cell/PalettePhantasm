@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom'; //Routes is like switch which will make sure that once the url string matches one char it stops and Route is used for navigation
 
 // Import pages
 import GlobalStyle from './components/GlobalStyle';
