@@ -87,6 +87,6 @@ const Card = styled.div`
             padding: 1rem;
         }
     }
-`
+`;
 
 export default ServicesSection;

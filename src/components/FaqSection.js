@@ -46,7 +46,7 @@ const FaqSection = () => {
 
 const Faq = styled(About)`
     display: block;
-
+    
     span {
         display: block;
     }
