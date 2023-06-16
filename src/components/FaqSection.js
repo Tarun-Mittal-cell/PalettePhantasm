@@ -20,31 +20,39 @@ const FaqSection = () => {
                     <div className="faq-line"></div>
                 </div>
             </Toggle>
-
-            <div className="question">
-                <h4>Daily Schedule</h4>
-                <div className="answer">
-                    <p>Sit ullamco officia tempor magna.</p>
-                    <p>Cupidatat proident sunt ut irure sint.</p>
+            
+            <Toggle>
+                <div className="question">
+                    <h4>Daily Schedule</h4>
+                    <div className="answer">
+                        <p>Sit ullamco officia tempor magna.</p>
+                        <p>Cupidatat proident sunt ut irure sint.</p>
+                    </div>
+                    <div className="faq-line"></div>
                 </div>
-                <div className="faq-line"></div>
-            </div>
-            <div className="question">
-                <h4>Different Payment Methods</h4>
-                <div className="answer">
-                    <p>Sit ullamco officia tempor magna.</p>
-                    <p>Cupidatat proident sunt ut irure sint.</p>
+            </Toggle>
+            
+            <Toggle>
+                <div className="question">
+                    <h4>Different Payment Methods</h4>
+                    <div className="answer">
+                        <p>Sit ullamco officia tempor magna.</p>
+                        <p>Cupidatat proident sunt ut irure sint.</p>
+                    </div>
+                    <div className="faq-line"></div>
                 </div>
-                <div className="faq-line"></div>
-            </div>
-            <div className="question">
-                <h4>What products do you offer?</h4>
-                <div className="answer">
-                    <p>Sit ullamco officia tempor magna.</p>
-                    <p>Cupidatat proident sunt ut irure sint.</p>
+            </Toggle>
+            
+            <Toggle>
+                <div className="question">
+                    <h4>What products do you offer?</h4>
+                    <div className="answer">
+                        <p>Sit ullamco officia tempor magna.</p>
+                        <p>Cupidatat proident sunt ut irure sint.</p>
+                    </div>
+                    <div className="faq-line"></div>
                 </div>
-                <div className="faq-line"></div>
-            </div>
+            </Toggle>
         </Faq>
     )
 }
