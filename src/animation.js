@@ -64,4 +64,9 @@ export const slider = {
         skew: '0deg',
         transition: { ease: 'easeOut', duration: 1 },
     }
-}
+};
+
+export const sliderContainer = {
+    hidden: {opacity: 1},
+    show: {opacity: 1, transition: {staggerChildren: 0.15, ease: "easeOut"}},
+};

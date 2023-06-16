@@ -9,7 +9,7 @@ import goodtimes from '../img/goodtimes-small.png';
 
 //Animations
 import { motion } from 'framer-motion';
-import { slider, pageAnimation, fade, photoAnim, lineAnim } from "../animation";
+import { sliderContainer,slider, pageAnimation, fade, photoAnim, lineAnim } from "../animation";
 
 
 const OurWork = () => {
@@ -21,10 +21,12 @@ const OurWork = () => {
             animate="show"
             style={{background: "#fff"}}
         >
-            <Frame1 variants={slider}></Frame1>
-            <Frame2 variants={slider}></Frame2>
-            <Frame3 variants={slider}></Frame3>
-            <Frame4 variants={slider}></Frame4>
+            <motion.div variants={sliderContainer}>
+                <Frame1 variants={slider}></Frame1>
+                <Frame2 variants={slider}></Frame2>
+                <Frame3 variants={slider}></Frame3>
+                <Frame4 variants={slider}></Frame4>
+            </motion.div>
             <Movie>
                 <motion.h2 variants={fade}>The Athlete</motion.h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
